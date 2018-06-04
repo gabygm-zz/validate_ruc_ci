@@ -1,11 +1,11 @@
+# -*- coding: utf-8 -*-
 import unittest
 from Document import Identifier
 
 class TestIdentifer(unittest.TestCase):
 
-    def test_convert_roman(self):
-        self.assertFalse(Identifier.validate_ci_ruc('12321321312'))
-
+    def test_rules_ci(self):
+        self.assertEqual(Identifier.rules_identifier('9999999999'), False)
 
 if __name__ == '__main__':
     unittest.main()
