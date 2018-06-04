@@ -1,2 +1,2 @@
-gaby
-# validate_ruc_ci
+# validar ci/ruc Ecuador
+
