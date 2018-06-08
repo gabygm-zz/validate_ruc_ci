@@ -1,2 +1,2 @@
-# validar ci/ruc Ecuador
+# validar ci/ruc Ecuador python
 
